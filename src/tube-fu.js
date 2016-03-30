@@ -153,7 +153,7 @@ export default class TubeFU {
   _genThumbnail() {
     let sourceString = this.el.getAttribute('src');
     let thumbId = sourceString.substr(sourceString.lastIndexOf('/') + 1);
-    let thumbUrl = `//i.ytimg.com/vi/${thumbId}/sddefault.jpg`;
+    let thumbUrl = `//i.ytimg.com/vi/${thumbId}/0.jpg`;
 
     return thumbUrl;
   };
